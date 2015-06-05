@@ -6,16 +6,16 @@
 /* typography */
 @font-face {
   font-family: "Edmondsans-Bold";
-  src: url("fonts/Edmondsans-Bold.otf"); }
+  src: url("fonts/Edmondsans-Bold.otf") format("opentype"); }
 @font-face {
   font-family: "ChaparralPro-Regular";
-  src: url("fonts/ChaparralPro-Regular.otf"); }
+  src: url("fonts/ChaparralPro-Regular.otf") format("opentype"); }
 @font-face {
   font-family: "ChaparralPro-Italic";
-  src: url("fonts/ChaparralPro-Italic.otf"); }
+  src: url("fonts/ChaparralPro-Italic.otf") format("opentype"); }
 @font-face {
   font-family: "Didot";
-  src: url("fonts/Didot.ttc"); }
+  src: url("fonts/Didot.ttc") format("truetype"); }
 /* layout */
 html {
   font-size: 16px; }
