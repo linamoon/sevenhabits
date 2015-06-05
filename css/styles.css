@@ -1,0 +1,130 @@
+/* variables */
+/* variables for typography */
+/*$footerBodyFont:*/
+/*$footerBodyFontItalic:*/
+/* variables for color */
+/* typography */
+@font-face {
+  font-family: "Edmondsans-Bold";
+  src: url("fonts/Edmondsans-Bold.otf"); }
+@font-face {
+  font-family: "ChaparralPro-Regular";
+  src: url("fonts/ChaparralPro-Regular.otf"); }
+@font-face {
+  font-family: "ChaparralPro-Italic";
+  src: url("fonts/ChaparralPro-Italic.otf"); }
+@font-face {
+  font-family: "Didot";
+  src: url("fonts/Didot.ttc"); }
+/* layout */
+html {
+  font-size: 16px; }
+
+body {
+  width: 100%;
+  margin: 0; }
+
+.container {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 1.5rem; }
+
+.sectionheading {
+  letter-spacing: 0.25rem; }
+
+header {
+  background: #616767;
+  padding-top: 4rem;
+  /*	padding-bottom: 4rem;*/
+  text-align: center; }
+  header img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto; }
+
+.about {
+  background: #616767;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  .about h1 {
+    font-family: "Edmondsans-Bold";
+    font-size: 2rem;
+    color: #ffffff; }
+  .about p {
+    font-family: "ChaparralPro-Regular";
+    font-size: 2rem;
+    color: #d8d8d8; }
+  .about .italics {
+    font-family: "ChaparralPro-Italic"; }
+
+.headerhabits {
+  background: #933932;
+  padding-top: 4rem;
+  /*	padding-bottom: 4rem;*/ }
+  .headerhabits img {
+    display: block;
+    margin: 0 auto; }
+
+.list {
+  background: #933932;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  .list h2 {
+    font-family: "Edmondsans-Bold";
+    font-size: 2rem;
+    color: #d5d5d5;
+    word-wrap: break-word; }
+  .list ol {
+    font-family: "ChaparralPro-Italic";
+    font-size: 2.5rem;
+    color: #d8d8d8;
+    padding-left: 6rem; }
+  .list p {
+    font-family: "ChaparralPro-Regular";
+    font-size: 2rem;
+    color: #d8d8d8;
+    margin-left: 6rem;
+    border-left: 1px solid #ffffff;
+    padding-left: 2rem;
+    word-wrap: break-word; }
+
+.notes {
+  background: #333333;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  .notes h3 {
+    font-family: "Didot";
+    font-style: italic;
+    font-size: 1.75rem;
+    color: #d5d5d5;
+    text-align: center; }
+  .notes ol {
+    font-family: "Didot";
+    font-size: 1.25rem;
+    color: #d8d8d8; }
+  .notes li {
+    padding-bottom: 1rem; }
+
+footer {
+  background: #d8d8d8;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  footer h5 {
+    font-family: "Edmondsans-Bold";
+    font-size: 1rem;
+    margin: 0; }
+
+/* media queries */
+/*@media (max-width: 700px) {
+	header {
+		text-align: center;
+
+	}
+	 img {
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+}*/
+
+/*# sourceMappingURL=styles.css.map */
