@@ -23,24 +23,24 @@ $bodyFontColor: #d8d8d8;
 /* typography */
 
 @font-face {
-	font-family: $sectionHeaderFont;
+	font-family: $sectionHeaderFont, 'Franklin Gothic Medium', Arial, sans-serif;
 	src: url('fonts/Edmondsans-Bold.otf') format('opentype');
 	src: url('fonts/Edmondsans-Bold.ttf') format('truetype');
 	src: url('fonts/Edmondsans-Bold.woff') format('woff');
 }
 
 @font-face {
-	font-family: $bodyFont;
+	font-family: $bodyFont, 'Book Antiqua', Georgia, serif;
 	src: url('fonts/ChaparralPro-Regular.otf') format('opentype');
 }
 
 @font-face {
-	font-family: $bodyFontItalic;
+	font-family: $bodyFontItalic, 'Book Antiqua', Georgia, serif;
 	src: url('fonts/ChaparralPro-Italic.otf') format('opentype');
 }
 
 @font-face {
-	font-family: $footerHeaderFont;
+	font-family: $footerHeaderFont, Georgia, serif;
 	src: url('fonts/Didot.ttc') format('truetype');
 }
 

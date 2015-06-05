@@ -5,18 +5,18 @@
 /* variables for color */
 /* typography */
 @font-face {
-  font-family: "Edmondsans-Bold";
+  font-family: "Edmondsans-Bold", "Franklin Gothic Medium", Arial, sans-serif;
   src: url("fonts/Edmondsans-Bold.otf") format("opentype");
   src: url("fonts/Edmondsans-Bold.ttf") format("truetype");
   src: url("fonts/Edmondsans-Bold.woff") format("woff"); }
 @font-face {
-  font-family: "ChaparralPro-Regular";
+  font-family: "ChaparralPro-Regular", "Book Antiqua", Georgia, serif;
   src: url("fonts/ChaparralPro-Regular.otf") format("opentype"); }
 @font-face {
-  font-family: "ChaparralPro-Italic";
+  font-family: "ChaparralPro-Italic", "Book Antiqua", Georgia, serif;
   src: url("fonts/ChaparralPro-Italic.otf") format("opentype"); }
 @font-face {
-  font-family: "Didot";
+  font-family: "Didot", Georgia, serif;
   src: url("fonts/Didot.ttc") format("truetype"); }
 /* layout */
 html {
