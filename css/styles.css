@@ -6,7 +6,9 @@
 /* typography */
 @font-face {
   font-family: "Edmondsans-Bold";
-  src: url("fonts/Edmondsans-Bold.woff") format("woff"); }
+  src: url("fonts/Edmondsans-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 @font-face {
   font-family: "ChaparralPro-Regular";
   src: url("fonts/ChaparralPro-Regular.otf") format("opentype"); }
